@@ -3,7 +3,7 @@
 
 Yo, welcome to the **Disaster Dashboard**. This is a React-based app aimed at visualizing and tracking disaster events in real-time. No sugar-coating---disasters happen, and this tool helps you keep an eye on them with a clean, responsive UI.
 
-Check it out live: <https://disaster-dashboard-eta.vercel.app>
+Check it out live now: <https://disaster-dashboard-eta.vercel.app>
 
 🚀 What's Inside?
 -----------------
