@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA4Wsd4HwfpvCwqTx407sqnBjjCi4kgRJY",
-  authDomain: "relief-ops-sl.firebaseapp.com",
-  projectId: "relief-ops-sl",
-  storageBucket: "relief-ops-sl.firebasestorage.app",
-  messagingSenderId: "253690457690",
-  appId: "1:253690457690:web:fd5ccf5578089460b7f263"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
